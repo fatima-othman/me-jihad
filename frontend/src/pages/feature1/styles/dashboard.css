@@ -1,0 +1,297 @@
+﻿.dashboard-page {
+  padding-top: 2rem;
+}
+
+.dashboard-headline {
+  margin-bottom: 1.2rem;
+}
+
+.dashboard-headline h1 {
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  margin-bottom: 0.35rem;
+}
+
+.dashboard-headline p {
+  font-size: 1.05rem;
+}
+
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.metric-card {
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.metric-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: #edf5fb;
+  color: var(--color-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+}
+
+.metric-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.metric-value {
+  color: var(--color-text-dark);
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.metric-card h2 {
+  font-size: 0.98rem;
+  margin-bottom: 0.18rem;
+}
+
+.metric-card span {
+  color: var(--color-muted);
+  font-size: 0.82rem;
+}
+
+.dashboard-generate-banner {
+  border-radius: 14px;
+  background: var(--color-primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem 1.3rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.18s ease;
+}
+
+.dashboard-generate-banner:hover {
+  transform: translateY(-2px);
+}
+
+.dashboard-generate-banner h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.dashboard-generate-banner p {
+  color: #e6f2fb;
+  margin-bottom: 0;
+}
+
+.banner-btn {
+  border-color: transparent;
+}
+
+.dashboard-reports {
+  margin-bottom: 1.2rem;
+}
+
+.reports-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.reports-head h2 {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+
+.reports-head a {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.report-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.report-item {
+  border-radius: 12px;
+  padding: 0.95rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.report-main h3 {
+  margin-bottom: 0.2rem;
+  font-size: 1.25rem;
+}
+
+.report-main p {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+.report-score {
+  text-align: right;
+}
+
+.report-score strong,
+.report-score span {
+  display: block;
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.report-score small {
+  color: var(--color-muted);
+  font-size: 0.75rem;
+}
+
+.report-open {
+  border: 1px solid var(--color-border);
+  border-radius: 9px;
+  padding: 0.45rem 0.7rem;
+  color: #273246;
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.report-open-disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.dashboard-activity {
+  border-radius: 12px;
+}
+
+.dashboard-activity h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.7rem;
+}
+
+.activity-list {
+  border-top: 1px solid var(--color-border);
+}
+
+.activity-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.activity-row span {
+  color: var(--color-muted);
+}
+
+.activity-row strong {
+  color: var(--color-text-dark);
+  font-weight: 700;
+}
+
+.dashboard-skeleton .skeleton-line,
+.skeleton-card .skeleton-line,
+.skeleton-banner,
+.skeleton-list {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #eef3f8 25%, #e5edf6 50%, #eef3f8 75%);
+  background-size: 300% 100%;
+  animation: skeleton-wave 1.25s ease infinite;
+}
+
+.skeleton-title {
+  width: 280px;
+  height: 34px;
+  margin-bottom: 0.6rem;
+}
+
+.skeleton-subtitle {
+  width: 190px;
+  height: 18px;
+  margin-bottom: 1.2rem;
+}
+
+.skeleton-card .skeleton-icon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0.8rem;
+}
+
+.skeleton-card .skeleton-value {
+  width: 70px;
+  height: 24px;
+  margin-bottom: 0.4rem;
+}
+
+.skeleton-card .skeleton-text {
+  width: 120px;
+  height: 16px;
+}
+
+.skeleton-banner {
+  width: 100%;
+  height: 84px;
+  margin-bottom: 1rem;
+}
+
+.skeleton-list {
+  width: 100%;
+  height: 160px;
+}
+
+@keyframes skeleton-wave {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .report-item {
+    grid-template-columns: 1fr auto;
+  }
+
+  .report-open {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboard-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-generate-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .report-item {
+    grid-template-columns: 1fr;
+  }
+
+  .report-score {
+    text-align: left;
+  }
+}

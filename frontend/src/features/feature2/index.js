@@ -1,0 +1,15 @@
+export { default as CreditsPage } from '../../pages/feature2/pages/DashboardCredits';
+export { default as PricingPage } from '../../pages/feature2/pages/DashboardPricing';
+export { default as HistoryPage } from '../../pages/feature2/pages/DashboardHistory';
+export { default as Feature2Home } from '../../pages/feature2/pages/Feature2Home';
+export { default as AuthPlus } from '../../pages/feature2/pages/AuthPlus';
+export { default as StrategyCore } from '../../pages/feature2/pages/StrategyCore';
+export { default as StrategyCreate } from '../../pages/feature2/pages/StrategyCreate';
+export { default as StrategyHistory } from '../../pages/feature2/pages/StrategyHistory';
+export { default as StrategyResult } from '../../pages/feature2/pages/StrategyResult';
+export { default as BusinessPages } from '../../pages/feature2/pages/BusinessPages';
+export { default as Pricing } from '../../pages/feature2/pages/Pricing';
+export { default as Contact } from '../../pages/feature2/pages/Contact';
+export { default as Privacy } from '../../pages/feature2/pages/Privacy';
+export { default as Terms } from '../../pages/feature2/pages/Terms';
+export { default as ProfileSettings } from '../../pages/feature2/pages/ProfileSettings';

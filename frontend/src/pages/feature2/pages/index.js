@@ -1,0 +1,14 @@
+export { default as AuthPlus } from './AuthPlus';
+export { default as BusinessPages } from './BusinessPages';
+export { default as Contact } from './Contact';
+export { default as Feature2Home } from './Feature2Home';
+export { default as ForgotPassword } from './ForgotPassword';
+export { default as Pricing } from './Pricing';
+export { default as Privacy } from './Privacy';
+export { default as ProfileSettings } from './ProfileSettings';
+export { default as ResetPassword } from './ResetPassword';
+export { default as StrategyCreate } from './StrategyCreate';
+export { default as StrategyCore } from './StrategyCore';
+export { default as StrategyHistory } from './StrategyHistory';
+export { default as StrategyResult } from './StrategyResult';
+export { default as Terms } from './Terms';
